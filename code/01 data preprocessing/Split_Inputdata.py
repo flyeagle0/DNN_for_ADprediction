@@ -158,8 +158,8 @@ if __name__ == '__main__':
 	## input files
 	## file 1: gene expression (samples x genes) with label (AD, Normal)
 	## file 2: DNA methylation (samples x CpG probes) with label (AD, Normal)
-	input_file_geneExpr = "../../dataset/allforDNN_ge.txt"
-	input_file_DNAMeth = "../../dataset/allforDNN_me.txt"
+	input_file_geneExpr = "../../dataset/allforDNN_ge_sample.tsv"
+	input_file_DNAMeth = "../../dataset/allforDNN_me_sample.tsv"
 
 	## output directory
 	## performance of the model
